@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Mukta&family=Secular+One&display=swap');
+
+
+
+html, body
+{
+  height: 100%;
+  background-size: cover;
+  background-position:center;
+  background-image: url("CTLoginBG.png");
+}
+
+
+
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+  }
+  
+  
+  .left {
+	left: 0;
+	padding-top: 10%;
+	padding-left:15%;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+  
+}
+  
+  
+  .right {
+	  padding-top: 10%;
+	  padding-left:10%;
+	  padding-bottom: 50px;
+	  padding-right: 50px;
+	right: 0;
+border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+  }
+
+.header
+{
+	color: white;
+  font-family: secular one;
+  font-size: 80px;
+  margin-top: 80px;
+  margin-left: -90px;
+}
+.header img
+{
+	width:75px;
+  margin-right: -15px;
+
+}
+
+.login_div
+{
+	background: rgba(0, 0, 0, 0);
+	align-content: center;
+		border-radius: 15px ;
+	width: 80%;
+}
+
+
+
+
+
+h4{
+  margin-left: -20px;
+  margin-right: -100px;
+  font-size: 18px;
+  font-style: italic;
+  font-family: ink free;
+  color: #da2588;
+  font-weight: bolder;
+}
+h5{
+  margin-left: -20px;
+  margin-right: -100px;
+  font-size: 22px;
+  font-style: italic;
+  font-family: league spartan;
+  color: #000000;
+
+
+}
+
+#pink_logo{
+	border-radius: 7px;
+  width: 45%;
+  margin-right: -98px;
+  margin-top: -48px;
+  background: #ffced5;
+  border:solid;
+  border-color: #fcbcdf;
+}
+#pink_logo:hover{
+  background: #fff19f;
+  border-color:#fff3b1;
+transition:.3s;
+}
+
+#username{ 
+    font-family:league spartan;
+    text-align:left;
+    width: 80%;
+    margin-right: -90px;
+    font-size: 17px;
+    border-color: palevioletred;
+    border-radius: 3px;
+    box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+  }
+
+#password{
+  font-family: league spartan;
+  text-align:left;
+  width: 80%;
+  margin-right: -90px;
+  font-size: 17px;
+  border-color: #fad91f;
+  border-radius: 3px;
+  box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+
+
+p{
+    font-family: ink free;
+    font-size: 30px;
+    color: white;
+    margin-left: -108px;
+   font-style: italic;
+   margin-right: -400px;
+
+}
+#Login_button{
+    font-family: secular one;
+    margin-right: -90px;
+    margin-bottom:-80px;
+    font-size: 21px;
+    width: 30%;
+    border-radius: 3px;
+height: 10%;
+background: transparent;
+color: #f81391;
+border: transparent;
+
+box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+#Login_button:hover{
+border: solid;
+  transition: .3s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 15px lightpink) drop-shadow(0 0 50px lightpink) contrast(1) brightness(1);
+border-width: 0px;
+
+ }
+
+
+#TC{
+ background: transparent;
+ text-decoration: underline;
+ color:rgb(88, 174, 245);
+ font-size: 18px;
+  font-family:league spartan;
+  margin-right: -89px;
+  border: transparent;
+}
+
+
+label{
+    font-family: secular one;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    margin-right: -90px;
+}
+
+
+#password:hover{
+  border:solid;
+  border-width: 1px;
+  border-color:#fad91f;
+  transition: .3s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 13px none) drop-shadow(0 0 50px none) contrast(1) brightness(1);
+}
+
+#username:hover{
+  border:solid;
+  border-width: 1px;
+  border-color:palevioletred;
+  transition: .3s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 13px none) drop-shadow(0 0 50px none) contrast(1) brightness(1);
+}
+
+
+
+
+
+
+
+
+
