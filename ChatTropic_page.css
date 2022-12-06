@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Mukta&family=Secular+One&display=swap');
+
+body{
+    height: 900%;
+    background-image: url("CTRoomBG.jpg");
+background-size: cover;
+background-position: center;
+}  
+
+
+#output{
+	text-align: left;
+    margin-bottom: 70px;
+    }
+
+
+
+label {
+    font-size: 23px;
+    font-family: secular one;
+}
+
+.header
+{
+	color: rgb(0, 0, 0);
+  font-family: secular one;
+  font-size: 65px;
+  margin-top: 80px;
+  margin-right: -40px;
+}
+.header img
+{
+	width:75px;
+  margin-right: -15px;
+
+}
+
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+
+
+
+
+#send{
+    font-family: secular one;
+   border-color: #fdf6b6;
+    margin-top:20px;
+    font-size: 17px;
+    width: 13%;
+    border-radius: 3px;
+height:90%;
+background: rgb(233, 211, 90);
+color: white;
+border: thin;
+
+box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+#send:hover{
+border: solid;
+  transition: .3s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 15px none) drop-shadow(0 0 50px none) contrast(1) brightness(1);
+border-width: 0px;
+
+ }
+
+
+
+
+
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+
+
+
+
+
+#logout
+{
+    font-size: 20px; 
+    float: right;
+    background-color: #f35c5c;
+    color:white;
+    border-color: #f35c5c;
+   border-radius: 5px;
+   }
+#logout:hover{
+    background: linear-gradient(rgb(243, 92, 92), rgb(245, 95, 95));
+}
+
+
+#back{
+    font-size:20px;
+background-color: #92cc92;
+border-color: #92cc92;
+}
+
+
+#output
+{
+	padding: 10px; 
+    width:70%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+
+
+#msg
+{
+	font-family:league spartan;
+    text-align:left;
+    width: 0%;
+    margin-right: -10px;
+    font-size: 17px;
+    border-color: #f092b2;
+    border-radius: 3px;
+    box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+
+#msg:hover{
+    border:solid;
+    border-width: 1px;
+    border-color: #fed71b;
+    transition: .3s;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 13px none) drop-shadow(0 0 50px none) contrast(1) brightness(1);
+  }
+
+
+.user_tick
+{
+	width:20px;
+}
