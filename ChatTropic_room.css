@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Mukta&family=Secular+One&display=swap');
+ body
+{
+  height: 100%;
+  background-image: url(CTRoomBG.jpg);
+	background-size: 170%;
+	background-position:center;
+    color:black !important;
+font-size: 20px;
+font-family: league spartan
+}
+
+
+
+
+
+.header
+{
+	color: rgb(0, 0, 0);
+  font-family: secular one;
+  font-size: 70px;
+  margin-top: 80px;
+  margin-right: -40px;
+}
+.header img
+{
+	width:75px;
+  margin-right: -15px;
+
+}
+
+
+#room_name
+{
+	font-family:league spartan;
+    text-align:left;
+    width: 60%;
+    margin-right: -10px;
+    font-size: 17px;
+    border-color: rgb(248, 215, 27);
+    border-radius: 3px;
+    box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+
+#room_name:hover{
+    border:solid;
+    border-width: 1px;
+    border-color:rgb(240, 146, 178);
+    transition: .3s;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 13px none) drop-shadow(0 0 50px none) contrast(1) brightness(1);
+  }
+
+
+
+#logout
+{
+   font-size: 20px; 
+    float: right;
+    background-color: #f35c5c;
+    color:white;
+    border-color: #f35c5c;
+   border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  }
+
+
+
+#output
+{
+	padding: 10px; 
+    width:65%;
+    background:rgba(255,255,255,0.8);
+    border-radius: 5px;
+    box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+  }
+
+
+
+
+
+
+
+
+  .input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: black;
+    font-size: 18px;
+   
+}
+
+
+.input_div_message_page
+{
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    
+   
+}
+.input_div_message_page label
+{
+	color: black;
+  
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+
+.message_h4
+{
+	padding-left:5px;
+    color:grey;
+}
+
+img{
+	border-radius: 50px;
+}
+
+label{
+    font-family: league spartan;
+    font-size: 25px;
+    font-weight: 1px;
+}
+
+h3 {
+    font-family: palanquin;
+    font-size: 25px;
+}
+    
+
+
+   #add_room{
+    font-family: secular one;
+   border-color: #fdf6b6;
+    margin-top:20px;
+    font-size: 17px;
+    width: 10%;
+    border-radius: 3px;
+height:90%;
+background: rgb(248, 160, 182);
+color: white;
+border: thin;
+
+box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+#add_room:hover{
+border: solid;
+  transition: .3s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 15px none) drop-shadow(0 0 50px none) contrast(1) brightness(1);
+border-width: 0px;
+
+ }
+
+
+
+
+
+
+   #welcoming_user{
+    font-size: 25px;
+    font-family: ink free;
+}
+
+
+#logged_in_as{
+  font-size: 23px;
+
+}
+
+.color_black{
+    font-size:30px;
+    font-family: ink free;
+}
+
+#Button_info{
+  width:100px; 
+  box-shadow:inset 2px 2px 2px 0px rgb(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  font-size: 19px;
+float: left;
+}
